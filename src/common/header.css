@@ -1,0 +1,10 @@
+.header{
+    height: 50px;
+}
+
+.adminpanel{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: antiquewhite;
+}

@@ -1,0 +1,100 @@
+.wrapper {
+  overflow-x: hidden;
+}
+.studentContainer {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 2px;
+    border-style: none;    
+  }
+  
+  h2 {
+    text-align: center;
+    border: 1px;
+    margin: 0px;
+    margin-bottom: 2px;
+    /* background-color: #a6d261; */
+    padding: 0px;
+  }
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .delete-button:hover {
+    background-color: red;
+  }
+  .studentForm {
+    margin-top: 20px;
+  }
+  
+  .studentForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .studentForm input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .studentForm button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .studentForm button:hover {
+    background-color: #45a049;
+  }
+  
+  .addButton {
+    display: inline-flex;
+    align-items: end;
+    margin-left: 525px;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+   
+  .addButton:hover {
+    background-color: #45a049;
+  }
+  
